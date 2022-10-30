@@ -1,0 +1,14 @@
+* Install all the necesssary packages.
+Such as FastAPI, pydantic, geopy.geocoders, requests, hypercorn
+
+* Initiate all the CRED Operation funtion using app()
+
+* Define and call the CRED Funtions to illustarate the funs. create, update and delete.
+
+* Then enter the cmd "hypercorn main:app --reload" in the terminal
+
+* It will redirected to the host link "http://127.0.0.1:8000".
+
+It has root page with the message of "{"Welcome": "to Address Book"}"
+
+then use the path "http://127.0.0.1:8000/docs" to perform the operations select, create, update and delete
